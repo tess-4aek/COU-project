@@ -1,0 +1,31 @@
+
+.header{
+    background-color: $gray;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+}
+.menu__list{
+    display: flex;
+    li + li{
+        margin-left: 96px;
+    }
+    li:first-child{
+        border-bottom: 4px solid $blue;
+    }
+    a{
+        font-size: 24px;
+        color: #fff;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        padding-bottom: 3px;
+        transition-duration: 1s;
+        &:hover{
+            color: $blue;
+        }
+    }
+}
