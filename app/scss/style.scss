@@ -6,9 +6,11 @@
 //Blocks
 @import "header";
 @import "tagline";
+@import "news";
 
 html{
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 *,
 *::before,
@@ -32,8 +34,16 @@ a{
     margin: 0 auto;
     padding: 0 15px;
 }
-
-
+.heading{
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 150px;
+    text-transform: uppercase;
+    border-bottom: 10px solid $blue;
+    display: inline-block;
+    line-height: 106px;
+    letter-spacing: .1em;
+}
 
 
 @import "media";

@@ -1,0 +1,35 @@
+.news{
+    min-height: 100vh;
+    background-color: $gray;
+}
+.news__inner{
+    padding-top: 90px;
+}
+.news__heading-wrap{
+    text-align: center;
+}
+.news__heading{
+    color: $silver;
+}
+.news__blocks{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.news__list{
+    font-size: 50px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 50px;
+    li{
+        padding-bottom: 10px;
+    }
+    a{
+        color: $silver;
+        transition-duration: 1s;
+    }
+    a:hover{
+        color: $blue;
+        
+    }
+}
