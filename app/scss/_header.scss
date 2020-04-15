@@ -1,12 +1,19 @@
 
 .header{
-    background-color: $gray;
+    z-index: 1001;
+    background-image: url(../img/tagline_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 .header__inner{
-    display: flex;
-    justify-content: space-between;
-    height: 150px;
-    align-items: center;
+    background-color: $gray;
+    &-menu{
+        display: flex;
+        justify-content: space-between;
+        height: 150px;
+        align-items: center;
+    }
 }
 .menu__list{
     display: flex;
