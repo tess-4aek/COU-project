@@ -1,6 +1,1 @@
-$(function(){
-
-
-
-    
-});
+$('.skins__slider').slick();

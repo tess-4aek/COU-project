@@ -8,6 +8,7 @@
 @import "tagline";
 @import "news";
 @import "advantages";
+@import "skins";
 
 html{
     box-sizing: border-box;
@@ -44,6 +45,12 @@ a{
     display: inline-block;
     line-height: 106px;
     letter-spacing: .1em;
+}
+.left {
+    text-align: left;
+}
+.right{
+    text-align: right;
 }
 
 

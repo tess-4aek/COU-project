@@ -1,0 +1,83 @@
+.skins{
+    background-color: $silver;
+    height: 100vh;
+}
+.skins__inner{
+    padding-top: 90px;
+    text-align: center;
+}
+.skins__heading{
+    color: $gray;
+}
+.skins__slider{
+    padding: 150px 130px 0px;
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    img{
+        margin: 0 auto;
+    }
+    & .slick-arrow{
+        position: absolute;
+        top: 50%;
+        z-index: 10;
+        font-size: 0;
+        width: 53px;
+        height: 96px;
+        border: none;
+        color: transparent;
+        cursor: pointer;
+        &.slick-prev{
+            left: 0;
+            background: url(../img/arrow_prev.png) 0 0 / 100% no-repeat;
+            
+        }
+        &.slick-next{
+            right: 0;
+            background: url(../img/arrow_next.png) 0 0 / 100% no-repeat;
+        }
+    }
+}
+.gun__name{
+    font-weight: bold;
+    color: $gray;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin-left: 100px;
+}
+.gun__skin{
+    font-weight: bold;
+    color: $blue;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    margin-left: 100px;
+    span{
+        color: $gray;
+    }
+}
+.gun__float{
+    font-weight: bold;
+    color: $silver;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 7px;
+    background-color: $gray;
+    display: inline-block;
+    border-radius: 15px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+.gun__pattern{
+    font-weight: bold;
+    color: $silver;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 7px;
+    background-color: $gray;
+    display: inline-block;
+    margin-right: 100px;
+    border-radius: 15px;
+}
+    
