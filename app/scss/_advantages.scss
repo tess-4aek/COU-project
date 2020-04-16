@@ -1,0 +1,63 @@
+.advantages{
+    min-height: 260px;
+    background-color: $silver;
+}
+.advantages__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.advantages__object{
+    .rev_img{
+        position: absolute;
+        top: 17px;
+        left: 80px;
+    }
+    .hon_img{
+        position: absolute;
+        top: 38px;
+        left: 75px;
+    }
+    .vid_img{
+        position: absolute;
+        top: 17px;
+        left: 80px;
+    }
+}
+.advantages__rectangle{
+    position: relative;
+    width: 260px;
+    height: 140px;
+    background-color: $gray;
+}
+.advantages__triangle{
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 130px solid transparent;
+    border-right: 130px solid transparent;
+    border-top: 120px solid $gray;
+    a{
+        position: absolute;
+        font-weight: bold;
+        font-size: 24px;
+        text-transform: uppercase;
+        color: $silver;
+        transition-duration: 1s;
+    }
+    a:hover{
+        color: $blue;
+    }
+    .rev_text{
+        top: -115px;
+        left: -65px;
+    }
+    .hon_text{
+        top: -115px;
+        left: -50px;
+    }
+    .vid_text{
+        top: -115px;
+        left: -45px;
+        text-align: center;
+    }
+}
