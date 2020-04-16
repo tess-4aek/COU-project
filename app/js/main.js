@@ -1,1 +1,8 @@
-$('.skins__slider').slick();
+
+$(document).ready(function(){
+    $('.skins__slider').slick({
+      autoplay: true,
+      autoplaySpeed: 2500,
+    }
+    );
+  });
