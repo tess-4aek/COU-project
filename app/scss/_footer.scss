@@ -1,0 +1,86 @@
+.footer{
+    height: 340px;
+    background-color: $gray;
+    border-top: 5px solid $silver;
+}
+.footer__inner{
+    text-align: center;
+    padding-top: 30px;
+}
+.footer__socials{
+    display: flex;
+    justify-content: center;
+    margin: 45px 0px;
+    &-instagram{
+        padding: 0 7px;
+        img{
+            transition-duration: 1s;
+            border-radius: 50%;
+            &:hover{
+                transform: scale(1.1);
+                box-shadow: 0px 0px 35px 0px #dc71fb;
+            }
+        }
+    }
+    &-telegram{
+        padding: 0 7px;
+        img{
+            transition-duration: 1s;
+            border-radius: 50%;
+            &:hover{
+                transform: scale(1.1);
+                box-shadow: 0px 0px 35px 0px #0fabe1;
+            }
+        }
+    }
+    &-youtube{
+        padding: 0 7px;
+        img{
+            transition-duration: 1s;
+            border-radius: 50%;
+            &:hover{
+                transform: scale(1.1);
+                box-shadow: 0px 0px 35px 0px #e10f0f;
+            }
+        }
+    }
+    &-facebook{
+        padding: 0 7px;
+        img{
+            transition-duration: 1s;
+            border-radius: 50%;
+            &:hover{
+                transform: scale(1.1);
+                box-shadow: 0px 0px 35px 0px #0f37e1; 
+            }
+        }
+    }
+    &-vkontakte{
+        padding: 0 7px;
+        img{
+            transition-duration: 1s;
+            border-radius: 50%;
+            &:hover{
+                transform: scale(1.1);
+                box-shadow: 0px 0px 35px 0px #43a9ff;
+            }
+        }
+    }
+}
+.footer__questions{
+    font-size: 24px;
+    font-weight: 200;
+    font-style: italic;
+    color: $silver;
+    line-height: 36px;
+    a{
+        color: $blue;
+    }
+}
+.footer__copywrite{
+    font-size: 24px;
+    font-weight: 200;
+    font-style: italic;
+    color: $silver;
+    line-height: 36px;
+}
