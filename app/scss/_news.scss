@@ -33,3 +33,14 @@
         
     }
 }
+.news__block-right{
+    
+    img{
+        width: 484px;
+        height: 453px;
+        transition-duration: 1s;
+    }
+    img:hover{
+        transform: scale(1.2);
+    }
+}

@@ -24,7 +24,7 @@
                     </div>
                     <nav class="menu">
                         <ul class="menu__list">
-                            <li>
+                            <li class="menu__list--active">
                                 <a href="#">home</a>
                             </li>
                             <li>
@@ -46,20 +46,20 @@
         </div>
         <div class="tagline__inner">
             <div class="container">
-                <div class="tagline__first">
-                    <div class="tagline__first-wrapper_1">
-                        <div class="tagline__first-element_1 tagline__elements">cs:go</div>
+                <div class="tagline__box">
+                    <div class="tagline__wrapper-1">
+                        <div class="tagline__box-item-1 tagline__items">cs:go</div>
                     </div>
-                    <div class="tagline__first-wrapper_2">
-                        <div class="tagline__first-element_2 tagline__elements">only</div>
+                    <div class="tagline__wrapper-2">
+                        <div class="tagline__box-item-2 tagline__items">only</div>
                     </div>
-                    <div class="tagline__first-wrapper_3">
-                        <div class="tagline__first-element_3 tagline__elements">useful</div>
+                    <div class="tagline__wrapper-3">
+                        <div class="tagline__box-item-3 tagline__items">useful</div>
                     </div>
                 </div>
                 <div class="tagline__arrow">
-                    <a class="header__btn" href="#news">
-                        <img src="img/arrow.png" alt="">
+                    <a class="header__scroll" href="#news">
+                        <img src="img/arrow.svg" alt="">
                     </a>
                 </div>
             </div>
@@ -96,16 +96,18 @@
         <div class="container">
             <div class="advantages__inner">
                 <div class="advantages__object">
-                    <div class="advantages__rectangle"><img class="rev_img" src="img/relevance.png" alt=""></div>
-                    <div class="advantages__triangle"><a class="rev_text" href="#">relevance</a></div>
+                    <div class="advantages__rectangle"><img class="advantages_img-1" src="img/relevance.svg" alt="">
+                    </div>
+                    <div class="advantages__triangle"><a class="advantages_text-1" href="#">relevance</a></div>
                 </div>
                 <div class="advantages__object">
-                    <div class="advantages__rectangle"><img class="hon_img" src="img/honesty.png" alt=""></div>
-                    <div class="advantages__triangle"><a class="hon_text" href="#">honesty</a></div>
+                    <div class="advantages__rectangle"><img class="advantages_img-2" src="img/honesty.svg" alt=""></div>
+                    <div class="advantages__triangle"><a class="advantages_text-2" href="#">honesty</a></div>
                 </div>
                 <div class="advantages__object">
-                    <div class="advantages__rectangle"><img class="vid_img" src="img/video_reviews.png" alt=""></div>
-                    <div class="advantages__triangle"><a class="vid_text" href="#">video reviews</a></div>
+                    <div class="advantages__rectangle"><img class="advantages_img-3" src="img/video_reviews.svg" alt="">
+                    </div>
+                    <div class="advantages__triangle"><a class="advantages_text-3" href="#">video reviews</a></div>
                 </div>
             </div>
         </div>
@@ -115,29 +117,38 @@
             <div class="skins__inner">
                 <div class="skins__heading heading">skins</div>
                 <div class="skins__slider">
-                    <div class="skins__slider-element">
+                    <div class="skins__slider-item">
                         <div class="gun__name left">ump-45</div>
                         <div class="gun__skin left">moonrise<span> / FT</span></div>
                         <img src="img/ump-45.png" alt="">
-                        <div class="gun__wrap right"><div class="gun__float">FLOAT: 0.1747360677</div></div>
-                        
-                        <div class="gun__wrap right"><div class="gun__pattern right">PATTERN: 390</div></div>
+                        <div class="gun__wrap right">
+                            <div class="gun__float">FLOAT: 0.1747360677</div>
+                        </div>
+                        <div class="gun__wrap right">
+                            <div class="gun__pattern">PATTERN: 390</div>
+                        </div>
                     </div>
-                    <div class="skins__slider-element">
+                    <div class="skins__slider-item">
                         <div class="gun__name left">glock-18</div>
                         <div class="gun__skin left">water elemental<span> / FN</span></div>
                         <img src="img/glock-18.png" alt="">
-                        <div class="gun__wrap right"><div class="gun__float">FLOAT: 0.0247360677</div></div>
-                        
-                        <div class="gun__wrap right"><div class="gun__pattern right">PATTERN: 167</div></div>
+                        <div class="gun__wrap right">
+                            <div class="gun__float">FLOAT: 0.0247360677</div>
+                        </div>
+                        <div class="gun__wrap right">
+                            <div class="gun__pattern">PATTERN: 167</div>
+                        </div>
                     </div>
-                    <div class="skins__slider-element">
+                    <div class="skins__slider-item">
                         <div class="gun__name left">ak-47</div>
                         <div class="gun__skin left">the empress<span> / FT</span></div>
                         <img src="img/ak-47.png" alt="">
-                        <div class="gun__wrap right"><div class="gun__float">FLOAT: 0.1847360677</div></div>
-                        
-                        <div class="gun__wrap right"><div class="gun__pattern right">PATTERN: 70</div></div>
+                        <div class="gun__wrap right">
+                            <div class="gun__float">FLOAT: 0.1847360677</div>
+                        </div>
+                        <div class="gun__wrap right">
+                            <div class="gun__pattern">PATTERN: 70</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -146,8 +157,10 @@
     <section class="cfg">
         <div class="container">
             <div class="cfg__inner">
-                <div class="cdg__heading heading">cfg</div>
-                <div class="cfg__tagline-wraper"><div class="cfg__tagline">become</div></div> 
+                <div class="cfg__heading heading">cfg</div>
+                <div class="cfg__tagline-wraper">
+                    <div class="cfg__tagline">become</div>
+                </div>
                 <div class="cfg__bubbles">
                     <div class="cfg__bubble-big">
                         <a href="#"><img src="img/binds.svg" alt=""></a>
@@ -162,12 +175,33 @@
             </div>
         </div>
     </section>
+    <section class="more">
+        <div class="container">
+            <div class="more__inner">
+                <div class="more__heading heading">more</div>
+                <div class="more__items">
+                    <div class="more__item more__item--blue">
+                        <a class="more__item-link-1" href="#"><img class="more__item-img" src="img/servers.png" alt=""></a>
+                    </div>
+                    <div class="more__item more__item--yellow">
+                        <a class="more__item-link-2" href="#"><img class="more__item-img" src="img/dumbbell.png" alt=""></a>
+                    </div>
+                    <div class="more__item more__item--white">
+                        <a class="more__item-link-3" href="#"><img class="more__item-img" src="img/tactic.png" alt=""></a>
+                    </div>
+                    <div class="more__item more__item--pink">
+                        <a class="more__item-link-4" href="#"><img class="more__item-img" src="img/interview.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/libs.min.js"></script>
     <script src="js/main.js"></script>
-    
+
 </body>
 
 </html>

@@ -7,17 +7,17 @@
     justify-content: space-between;
 }
 .advantages__object{
-    .rev_img{
+    .advantages_img-1{
         position: absolute;
         top: 17px;
         left: 80px;
     }
-    .hon_img{
+    .advantages_img-2{
         position: absolute;
         top: 38px;
         left: 75px;
     }
-    .vid_img{
+    .advantages_img-3{
         position: absolute;
         top: 17px;
         left: 80px;
@@ -47,15 +47,15 @@
     a:hover{
         color: $blue;
     }
-    .rev_text{
+    .advantages_text-1{
         top: -115px;
         left: -65px;
     }
-    .hon_text{
+    .advantages_text-2{
         top: -115px;
         left: -50px;
     }
-    .vid_text{
+    .advantages_text-3{
         top: -115px;
         left: -45px;
         text-align: center;
