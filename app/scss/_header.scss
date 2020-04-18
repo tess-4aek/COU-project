@@ -1,6 +1,6 @@
 
 .header{
-    z-index: 1001;
+    z-index: 10;
     background-image: url(../img/tagline_bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,11 +13,10 @@
     left: 0;
     animation-name: headerShow;
     animation-duration: 1s;
-    // z-index: 1001;
 }
 .header__top{
     background-color: $gray;
-    z-index: 1001;
+    z-index: 10;
     &-menu{
         display: flex;
         justify-content: space-between;

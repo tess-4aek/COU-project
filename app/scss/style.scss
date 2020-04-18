@@ -4,6 +4,7 @@
 @import "fonts";
 @import "reset";
 //Blocks
+@import "preloader";
 @import "header";
 @import "news";
 @import "advantages";
@@ -15,6 +16,9 @@
 html{
     box-sizing: border-box;
     scroll-behavior: smooth;
+}
+.html--hiden{
+    overflow: hidden;
 }
 *,
 *::before,
