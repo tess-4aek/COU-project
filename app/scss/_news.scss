@@ -1,6 +1,7 @@
 .news{
     min-height: 100vh;
     background-color: $gray;
+    padding-bottom: 50px;
 }
 .news__inner{
     padding-top: 160px;
@@ -34,11 +35,11 @@
     }
 }
 .news__block-right{
-    
     img{
         width: 484px;
         height: 453px;
         transition-duration: 1s;
+        margin-right: 50px;
     }
     img:hover{
         transform: scale(1.2);

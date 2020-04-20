@@ -1,5 +1,5 @@
 .footer{
-    height: 340px;
+    max-height: 340px;
     background-color: $gray;
     border-top: 5px solid $silver;
 }
@@ -10,7 +10,7 @@
 .footer__socials{
     display: flex;
     justify-content: center;
-    margin: 45px 0px;
+    margin: 25px 0px;
     &-instagram{
         padding: 0 7px;
         img{

@@ -1,24 +1,24 @@
-.cfg{
+.configs{
+    height: 1400px;
     background-color: $silver;
-    background-image: url(../img/cfg_bg.png);
+    background-image: url(../img/configs_bg.png);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: right bottom;
-    height: 1080px;
-    position: relative;
+    background-position: center bottom;
 }
-.cfg__inner{
-    padding-top: 87px;
+.configs__inner{
     text-align: center;
+    
 }
-.cfg__heading{
+.configs__heading{
     color: $gray;
     margin-bottom: 120px;
 }
-.cfg__tagline-wraper{
-    text-align: left;
+.configs__content{
+    display: flex;
+    justify-content: space-between;
 }
-.cfg__tagline{
+.configs__tagline{
     font-size: 150px;
     font-weight: bold;
     color: $gray;
@@ -40,15 +40,19 @@
         line-height: 95px;
     }
 }
-.cfg__bubble-big{
-    z-index: 5;
+.configs__bubbles{
+    max-width: 480px;
+    max-height: 420px;
+    position: relative;
+}
+.configs__bubble-big{
     position: absolute;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     background-color: #3e3e3e;
-    top: 500px;
-    right: 500px;
+    top: 200px;
+    right: 150px;
     animation-name: animateBubbleBig;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -57,42 +61,34 @@
         margin-top: 40px;
     }
 }
-.cfg__bubble-midle{
-    z-index: 5;
+.configs__bubble-midle{
     position: absolute;
     width: 150px;
     height: 150px;
     border-radius: 50%;
     background-color: #3e3e3e;
-    top: 600px;
-    right: 760px;
-    animation-name: animateBubbleMidle;
+    top: 300px;
+    right: 410px;
+    animation-name: animateBubbleBig;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     transition-duration: 1s;
-    img:hover{
-        color: $blue;
-    }
     img{
         margin-top: 35px;
     }
 }
-.cfg__bubble-small{
-    z-index: 5;
+.configs__bubble-small{
     position: absolute;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background-color: #3e3e3e;
-    top: 750px;
-    right: 660px;
-    animation-name: animateBubbleSmall;
+    top: 450px;
+    right: 310px;
+    animation-name: animateBubbleBig;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     transition-duration: 1s;
-    a:hover{
-        color: $blue;
-    }
     img{
         margin-top: 20px;
     }

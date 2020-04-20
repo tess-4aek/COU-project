@@ -9,7 +9,7 @@
 @import "news";
 @import "advantages";
 @import "skins";
-@import "cfg";
+@import "configs";
 @import "more";
 @import "footer";
 
@@ -49,7 +49,7 @@ a{
     text-transform: uppercase;
     border-bottom: 10px solid $blue;
     display: inline-block;
-    line-height: 106px;
+    line-height: 110px;
     letter-spacing: .1em;
 }
 .left {
