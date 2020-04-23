@@ -15,10 +15,27 @@
 <body>
     <div class="preloader" id="preloader">
         <div class="preloader__inner">
-            <span class="c cou">C</span ><span class="o cou">O</span><span class="u cou">U</span>
+            <span class="c cou">C</span><span class="o cou">O</span><span class="u cou">U</span>
         </div>
     </div>
     <header class="header">
+        <div class="header__top-mobile">
+            <div class="menu-block">
+                <nav class="menu-nav">
+                    <ul class="menu__list-mobile">
+                        <li class="menu-nav__link"><a href="#">home</a></li>
+                        <li class="menu-nav__link"><a href="#">news</a></li>
+                        <li class="menu-nav__link"><a href="#">skins</a></li>
+                        <li class="menu-nav__link"><a href="#">configs</a></li>
+                        <li class="menu-nav__link"><a href="#">more</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-btn">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
         <div class="header__top">
             <div class="container">
                 <div class="header__top-menu">
@@ -51,21 +68,23 @@
         </div>
         <div class="header__main">
             <div class="container">
-                <div class="header-main__box">
-                    <div class="header-main__wrapper-1">
-                        <div class="header-main__box-item-1 header-main__items">cs:go</div>
+                <div class="header-main__inner">
+                    <div class="header-main__box">
+                        <div class="header-main__wrapper-1">
+                            <div class="header-main__box-item-1 header-main__items">cs:go</div>
+                        </div>
+                        <div class="header-main__wrapper-2">
+                            <div class="header-main__box-item-2 header-main__items">only</div>
+                        </div>
+                        <div class="header-main__wrapper-3">
+                            <div class="header-main__box-item-3 header-main__items">useful</div>
+                        </div>
                     </div>
-                    <div class="header-main__wrapper-2">
-                        <div class="header-main__box-item-2 header-main__items">only</div>
+                    <div class="header-main__arrow">
+                        <a class="header__scroll" href="#news">
+                            <img src="img/arrow.svg" alt="">
+                        </a>
                     </div>
-                    <div class="header-main__wrapper-3">
-                        <div class="header-main__box-item-3 header-main__items">useful</div>
-                    </div>
-                </div>
-                <div class="header-main__arrow">
-                    <a class="header__scroll" href="#news">
-                        <img src="img/arrow.svg" alt="">
-                    </a>
                 </div>
             </div>
         </div>
@@ -126,34 +145,16 @@
                         <div class="gun__name left">ump-45</div>
                         <div class="gun__skin left">moonrise<span> / FT</span></div>
                         <img src="img/ump-45.png" alt="">
-                        <div class="gun__wrap right">
-                            <div class="gun__float">FLOAT: 0.1747360677</div>
-                        </div>
-                        <div class="gun__wrap right">
-                            <div class="gun__pattern">PATTERN: 390</div>
-                        </div>
                     </div>
                     <div class="skins__slider-item">
                         <div class="gun__name left">glock-18</div>
                         <div class="gun__skin left">water elemental<span> / FN</span></div>
                         <img src="img/glock-18.png" alt="">
-                        <div class="gun__wrap right">
-                            <div class="gun__float">FLOAT: 0.0247360677</div>
-                        </div>
-                        <div class="gun__wrap right">
-                            <div class="gun__pattern">PATTERN: 167</div>
-                        </div>
                     </div>
                     <div class="skins__slider-item">
                         <div class="gun__name left">ak-47</div>
                         <div class="gun__skin left">the empress<span> / FT</span></div>
                         <img src="img/ak-47.png" alt="">
-                        <div class="gun__wrap right">
-                            <div class="gun__float">FLOAT: 0.1847360677</div>
-                        </div>
-                        <div class="gun__wrap right">
-                            <div class="gun__pattern">PATTERN: 70</div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -166,7 +167,7 @@
                 <div class="configs__content">
                     <!-- <div class="configs__tagline-wraper"></div> -->
                     <div class="configs__tagline">become</div>
-                    
+
                     <div class="configs__bubbles">
                         <div class="configs__bubble-big">
                             <a href="#"><img src="img/binds.svg" alt=""></a>
@@ -178,7 +179,7 @@
                             <a href="#"><img src="img/crosshair.svg" alt=""></a>
                         </div>
                     </div>
-                </div>    
+                </div>
             </div>
         </div>
     </section>
@@ -233,7 +234,8 @@
                     </div>
                 </div>
                 <p class="footer__questions">For all questions, write to <span><a href="#">team@tilda.cc</a></span></p>
-                <p class="footer__copywrite">© Vishnevskiy R.V., 2020 All rights reserved. Reprinting or citing materials is
+                <p class="footer__copywrite">© Vishnevskiy R.V., 2020 All rights reserved. Reprinting or citing
+                    materials is
                     prohibited.</p>
             </div>
         </div>
