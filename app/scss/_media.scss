@@ -187,7 +187,40 @@
         }
     }
     .header-main__items{
-        margin-bottom: 25px;
+        margin-bottom: 20px;
+    }
+    .header__scroll{
+        img{
+            width: 75%;
+            height: 75%;
+        }
+    }
+}
+@media (max-height:400px){
+    .header-main__box{
+        font-size: 40px;
+        line-height: 25px;
+        &-item-1{
+            margin-top: 30px;
+        }
+    }
+    .header-main__items{
+        margin-bottom: 15px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 10px 10px 10px 20px;
+    }
+    .header-main__wrapper-2{
+        text-align: center;
+    }
+    .header-main__wrapper-3{
+        text-align: center;
+    }
+    .header__scroll{
+        img{
+            width: 75%;
+            height: 75%;
+        }
     }
 }
 @media (max-width:800px){
@@ -338,5 +371,368 @@
     .footer__copywrite{
         font-size: 16px;
         line-height: 16px;
+    }
+}
+@media(max-width:770px){
+    //skins
+    .skins__slider{
+        & .slick-arrow{
+            &.slick-prev{
+                background: url(../img/arrow_prev.png) 0 0 / 50% no-repeat;
+                
+            }
+            &.slick-next{
+                background: url(../img/arrow_next.png) 0 0 / 50% no-repeat;
+            }
+        }
+    }
+    .gun__name{
+        font-size: 20px;
+        padding-bottom: 5px;
+        margin-left: 70px;
+    }
+    .gun__skin{
+        font-size: 20px;
+        padding-bottom: 40px;
+        margin-left: 70px;
+    }
+}
+@media(max-width:600px){
+    //skins
+    .gun__name{
+        margin-left: 30px;
+    }
+    .gun__skin{
+        margin-left: 30px;
+    }
+    //cfg
+    .configs__bubble-big{
+        right: 70px;
+    }
+    .configs__bubble-midle{
+        right: 330px;
+    }
+    .configs__bubble-small{
+        right: 230px;
+    }
+    //more
+    .more{
+        background-color: $gray;
+        max-height: 100%;
+    }
+    .more__items{
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 200px;
+    }
+    .more__item{
+        width: 250px;
+        height: 250px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        &--blue{
+            &::before{
+                width: 250px;
+                height: 250px;
+            }
+            &::after{
+                font-size: 30px;
+                line-height: 36px;
+                width: 180px;
+                top: 277px;
+                left: 25px;
+            }
+        }
+        &--yellow{
+            margin-top: 150px;
+            &::before{
+                width: 250px;
+                height: 250px;
+            }
+            &::after{
+                font-size: 30px;
+                line-height: 36px;
+                width: 180px;
+                top: 277px;
+                left: 25px;
+            }
+        }
+        &--white{
+            margin-top: 150px;
+            &::before{
+                width: 250px;
+                height: 250px;
+            }
+            &::after{
+                font-size: 30px;
+                line-height: 36px;
+                width: 180px;
+                top: 277px;
+                left: 25px;
+            }
+        }
+        &--pink{
+            margin-top: 150px;
+            &::before{
+                width: 250px;
+                height: 250px;
+            }
+            &::after{
+                font-size: 30px;
+                line-height: 36px;
+                width: 200px;
+                top: 277px;
+                left: 25px;
+            }
+        }
+    }
+    .more__item-link-1{
+        top: 70px;
+        left: 80px;
+    }
+    .more__item-link-2{
+        top: 70px;
+        left: 68px;
+    }
+    .more__item-link-3{
+        top: 65px;
+        left: 78px;
+    }
+    .more__item-link-4{
+        top: 70px;
+        left: 70px;
+    }
+    //footer
+    .footer__questions{
+        font-size: 14px;
+        line-height: 14px;   
+    }
+    .footer__copywrite{
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+@media(max-width:500px){
+    //header
+    .header-main__box{
+        font-size: 70px;
+        line-height: 50px;
+    }
+    .header-main__items{
+        margin-bottom: 50px;
+        border-radius: 30px;
+        padding: 20px 20px 20px 30px;
+    }
+    .header-main__wrapper-2{
+        text-align: center;
+    }
+    .header-main__wrapper-3{
+        text-align: center;
+    }
+    //skins
+    .skins__inner{
+        padding-bottom: 125px;
+    }
+    .skins__slider{
+        padding: 150px 30px 0px;
+        max-width: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        & .slick-arrow{
+            display: none;
+        }
+    }
+    .gun__name{
+        font-size: 14px;
+        margin-left: 10px;
+        line-height: 14px;
+    }
+    .gun__skin{
+        font-size: 14px;
+        line-height: 14px;
+        padding-bottom: 10px;
+        margin-left: 10px;
+        span{
+            color: $gray;
+        }
+    }
+    //cfg
+    .configs__bubble-big{
+        width: 175px;
+        height: 175px;
+        top: 200px;
+        right: 50px;
+        img{
+            margin-top: 40px;
+            width: 80%;
+        }
+    }
+    .configs__bubble-midle{
+        width: 125px;
+        height: 125px;
+        top: 300px;
+        right: 270px;
+        img{
+            margin-top: 30px;
+            width: 80%;
+        }
+    }
+    .configs__bubble-small{
+        width: 75px;
+        height: 75px;
+        top: 450px;
+        right: 200px;
+        img{
+            margin-top: 15px;
+            width: 80%;
+        }
+    }
+    //footer
+    .footer__questions{
+        font-size: 14px;
+        line-height: 14px;   
+    }
+    .footer__copywrite{
+        font-size: 10px;
+        line-height: 10px;
+    }
+}
+@media(max-width:420px){
+    .heading{
+        padding-bottom: 15px;
+        font-size: 100px;
+        line-height: 60px;
+    }
+    //cfg
+    .configs__bubble-big{
+        top: 200px;
+        right: 10px;
+    }
+    .configs__bubble-midle{
+        top: 300px;
+        right: 240px;
+    }
+    .configs__bubble-small{
+        top: 450px;
+        right: 160px;
+    }
+}
+@media(max-width:380px){
+    //header
+    .header-main__box{
+        font-size: 65px;
+        line-height: 45px;
+    }
+    .header-main__items{
+        margin-bottom: 50px;
+        border-radius: 30px;
+        padding: 18px 18px 18px 28px;
+    }
+    .menu-nav__link{
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    //cfg
+    .configs__bubble-big{
+        width: 150px;
+        height: 150px;
+        top: 200px;
+        right: 10px;
+        img{
+            margin-top: 35px;
+            width: 70%;
+        }
+    }
+    .configs__bubble-midle{
+        width: 100px;
+        height: 100px;
+        top: 300px;
+        right: 220px;
+        img{
+            margin-top: 25px;
+            width: 70%;
+        }
+    }
+    .configs__bubble-small{
+        width: 60px;
+        height: 60px;
+        top: 450px;
+        right: 160px;
+        img{
+            margin-top: 10px;
+            width: 70%;
+        }
+    }
+}
+@media(max-width:360px){
+    //header
+    .heading{
+        font-size: 90px;
+        line-height: 50px;
+    }
+    .header-main__box{
+        font-size: 60px;
+        line-height: 40px;
+    }
+    .header-main__items{
+        margin-bottom: 50px;
+        border-radius: 30px;
+        padding: 16px 16px 16px 26px;
+    }
+}
+@media(max-width:320px){
+    //header
+    .heading{
+        font-size: 70px;
+        line-height: 30px;
+        border-bottom: 5px solid $blue;
+    }
+    .menu-nav__link{
+        margin-right: 10px;
+        font-size: 10px;
+    }
+    .header-main__box{
+        font-size: 50px;
+        line-height: 30px;
+    }
+    .header-main__items{
+        margin-bottom: 50px;
+        border-radius: 20px;
+        padding: 14px 14px 14px 24px;
+    }
+    //cfg
+    .configs__bubble-big{
+        width: 120px;
+        height: 120px;
+        top: 200px;
+        right: 10px;
+        img{
+            margin-top: 28px;
+            width: 60%;
+        }
+    }
+    .configs__bubble-midle{
+        width: 80px;
+        height: 80px;
+        top: 300px;
+        right: 180px;
+        img{
+            margin-top: 18px;
+            width: 60%;
+        }
+    }
+    .configs__bubble-small{
+        width: 50px;
+        height: 50px;
+        top: 440px;
+        right: 130px;
+        img{
+            margin-top: 10px;
+            width: 60%;
+        }
     }
 }
