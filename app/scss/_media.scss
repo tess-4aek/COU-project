@@ -31,9 +31,6 @@
             margin-top: 70px;
         }
     }
-    .header-main__box--fix{
-        padding-top: 100px;
-    }
     .heading{
         padding-bottom: 15px;
         font-weight: bold;
@@ -223,6 +220,14 @@
         }
     }
 }
+@media (max-width:960px){
+    .header .logo{
+        display: none;
+    }
+    .menu{
+        margin: 0 auto;
+    }
+}
 @media (max-width:800px){
     .header__top{
         display: none;
@@ -273,6 +278,13 @@
             font-weight: 900;
             font-size: 50px;
             line-height: 50px;
+        }
+    }
+    //skins
+    .skins__slider{
+        padding: 150px 0px 0px;
+        & .slick-arrow{
+            display: none !important;
         }
     }
     //more
@@ -371,30 +383,6 @@
     .footer__copywrite{
         font-size: 16px;
         line-height: 16px;
-    }
-}
-@media(max-width:770px){
-    //skins
-    .skins__slider{
-        & .slick-arrow{
-            &.slick-prev{
-                background: url(../img/arrow_prev.png) 0 0 / 50% no-repeat;
-                
-            }
-            &.slick-next{
-                background: url(../img/arrow_next.png) 0 0 / 50% no-repeat;
-            }
-        }
-    }
-    .gun__name{
-        font-size: 20px;
-        padding-bottom: 5px;
-        margin-left: 70px;
-    }
-    .gun__skin{
-        font-size: 20px;
-        padding-bottom: 40px;
-        margin-left: 70px;
     }
 }
 @media(max-width:600px){
@@ -525,6 +513,9 @@
         border-radius: 30px;
         padding: 20px 20px 20px 30px;
     }
+    .header-main__box-item-3{
+        margin-bottom: 30px;
+    }
     .header-main__wrapper-2{
         text-align: center;
     }
@@ -535,25 +526,14 @@
     .skins__inner{
         padding-bottom: 125px;
     }
-    .skins__slider{
-        padding: 150px 30px 0px;
-        max-width: 100%;
-        img{
-            width: 100%;
-            height: 100%;
-        }
-        & .slick-arrow{
-            display: none;
-        }
-    }
     .gun__name{
-        font-size: 14px;
+        font-size: 24px;
         margin-left: 10px;
-        line-height: 14px;
+        line-height: 20px;
     }
     .gun__skin{
-        font-size: 14px;
-        line-height: 14px;
+        font-size: 24px;
+        line-height: 20px;
         padding-bottom: 10px;
         margin-left: 10px;
         span{
@@ -601,11 +581,30 @@
         line-height: 10px;
     }
 }
-@media(max-width:420px){
+@media(max-width:424px){
     .heading{
         padding-bottom: 15px;
         font-size: 100px;
         line-height: 60px;
+    }
+    .menu-nav__link{
+        margin-right: 12px;
+        font-size: 14px;
+    }
+    //skins
+    .gun__name{
+        font-size: 18px;
+        margin-left: 10px;
+        line-height: 20px;
+    }
+    .gun__skin{
+        font-size: 18px;
+        line-height: 20px;
+        padding-bottom: 10px;
+        margin-left: 10px;
+        span{
+            color: $gray;
+        }
     }
     //cfg
     .configs__bubble-big{
@@ -621,7 +620,7 @@
         right: 160px;
     }
 }
-@media(max-width:380px){
+@media(max-width:384px){
     //header
     .header-main__box{
         font-size: 65px;
@@ -633,8 +632,7 @@
         padding: 18px 18px 18px 28px;
     }
     .menu-nav__link{
-        margin-right: 10px;
-        font-size: 14px;
+        font-size: 12px;
     }
     //cfg
     .configs__bubble-big{
@@ -683,8 +681,16 @@
         border-radius: 30px;
         padding: 16px 16px 16px 26px;
     }
+    .menu-nav__link{
+        margin-right: 12px;
+        font-size: 10px;
+    }
+    //cfg
+    .configs{
+        height: 800px;
+    }
 }
-@media(max-width:320px){
+@media(max-width:323px){
     //header
     .heading{
         font-size: 70px;
