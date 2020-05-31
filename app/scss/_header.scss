@@ -15,8 +15,7 @@
 .header__top{
     background-color: $gray;
     z-index: 15;
-    position: fixed;
-    width: 100vw;
+    width: 100%;
     &-menu{
         display: flex;
         justify-content: space-between;
@@ -33,8 +32,7 @@
     height: 100vh;
 }
 .header__top-mobile{
-    position: fixed;
-    width: 100vw;
+    width: 100%;
     display: none;
     padding-top: 20px;
     justify-content: center;
@@ -160,7 +158,6 @@
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
-    padding-top: 150px;
     &-item-1{
         margin-top: 90px;
     }
@@ -170,6 +167,12 @@
     &-item-3{
         color: $yellow;
         margin-bottom: 30px;
+    }
+}
+.header-main__box--fixed{
+    padding-top: 150px;
+    &-mobile{
+        padding-top: 70px;
     }
 }
 .header-main__items{
